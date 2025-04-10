@@ -11,6 +11,7 @@ Array.prototype.myFilter = function(callback) {
   return result;
 };
 
+// let's test this
 const arr = [7, 10, 17, 14]
 const evenNum = arr.myFilter(num=>{
   if(num%2===0){
